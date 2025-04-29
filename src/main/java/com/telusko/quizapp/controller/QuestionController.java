@@ -11,8 +11,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("question")
+//This is a controller
 public class QuestionController {
-
+    
     @Autowired
     QuestionService questionService;
 
